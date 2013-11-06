@@ -1,0 +1,12 @@
+#page {
+    padding-top: 60px;
+}
+
+/**
+ * FORMS
+ * This selector has to be that long to overwrite some more specific selectors
+ */
+form .input-append .combobox-button {
+	width: 30px;
+	height: 30px;
+}
