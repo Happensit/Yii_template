@@ -13,16 +13,21 @@ return array(
         'bootstrap'
     ),
     'theme' => 'bootstrap',
+    'language'=>'ru',           // user language (for Locale)
+    'sourceLanguage'=>'ru',        //language for messages and views
+    'charset'=>'utf-8',
     // autoloading model and component classes
-    'import' => array(
+    'import'=>array(
         'application.models.*',
         'application.components.*',
-    ),
+        'application.helpers.*',
+        'application.widgets.*',
+     ),
     'modules' => array(
         // uncomment the following to enable the Gii tool
         'gii' => array(
             'class' => 'system.gii.GiiModule',
-            'password' => 'gii',
+            'password' => '123123',
             'generatorPaths' => array(
                 'bootstrap.gii'
             ),
@@ -51,19 +56,18 @@ return array(
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ),
         ),
-        'db' => array(
-            'connectionString' => 'sqlite:' . dirname(__FILE__) . '/../data/testdrive.db',
-        ),
-        // uncomment the following to use a MySQL database
-        /*
-          'db'=>array(
-          'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+        
+        // MySQL database
+        'db'=>array(
+          'connectionString' => 'mysql:host=localhost;dbname=yiibase',
           'emulatePrepare' => true,
           'username' => 'root',
-          'password' => '',
+          'password' => 'root',
           'charset' => 'utf8',
+          'tablePrefix' => 'yii_',
+           // 'enableProfiling' => true,
+           //'enableParamLogging' => true,
           ),
-         */
         'errorHandler' => array(
             // use 'site/error' action to display errors
             'errorAction' => 'site/error',
