@@ -6,7 +6,7 @@
 // CWebApplication properties can be configured here.
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'Yii Template with Bootstrap',
+    'name' => 'Develop template with Bootstrap',
     // preloading 'log' component
     'preload' => array(
         'log',
@@ -20,8 +20,8 @@ return array(
     'import'=>array(
         'application.models.*',
         'application.components.*',
-        'application.helpers.*',
-        'application.widgets.*',
+        //'application.helpers.*',
+        //'application.widgets.*',
      ),
     'modules' => array(
         // uncomment the following to enable the Gii tool
