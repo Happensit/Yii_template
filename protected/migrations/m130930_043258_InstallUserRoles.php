@@ -17,11 +17,11 @@ class m130930_043258_InstallUserRoles extends CDbMigration
 		$roles = array(
 			array(
 				'name' => 'admin',
-				'alias' => '管理員',
+				'alias' => 'Администратор',
 			),
 			array(
 				'name' => 'user',
-				'alias' => '一般使用者',
+				'alias' => 'Пользователь',
 			),
 		);
 

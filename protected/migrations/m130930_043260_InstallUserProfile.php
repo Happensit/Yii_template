@@ -26,10 +26,10 @@ class m130930_043260_InstallUserProfile extends CDbMigration
 
 		$this->insert($this->tableName, array(
 			'user_id' => '1',
-			'name' => 'ChouAndy',
-			'sex' => '男',
-			'tel' => '0986-205773',
-			'email' => 'chouandy625@gmail.com',
+			'name' => 'Happensit',
+			'sex' => 'Мужской',
+			'tel' => '9313817415',
+			'email' => 'antonybizov@gmail.com',
 		));
 	}
 
