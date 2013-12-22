@@ -1,8 +1,16 @@
 RewriteEngine on
 
-# if a directory or a file exists, use it directly
+# if request filename is not a directory and not a file
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # otherwise forward it to index.php
 RewriteRule . index.php
+
+# forbidden files
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule \.(md|gitignore|gitmodules) - [F]
+
+# forbidden directories
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .git|img|css|js|uploads - [F]
