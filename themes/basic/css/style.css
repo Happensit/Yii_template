@@ -1,0 +1,101 @@
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; overflow-y: scroll; }
+body { background: #fff; padding: 40px 0 90px 0; }
+
+#page .footer { background-color: #f5f5f5; padding: 24px 0 25px 0; border-top: 1px solid #e5e5e5; }
+#page .footer p { margin-bottom: 0; color: #777; }
+
+
+#page .content { padding: 20px 0; }
+#page .content .headings { margin-bottom: 20px; border-bottom: 1px solid #e5e5e5; }
+#page .content .headings h3 { margin: 0; }
+#page .content .buttonToolbarMenus { margin: 0; }
+
+#page .content > .page-header { border-bottom: 1px dashed #b94a48; }
+#page .content > .page-header > h2 { color: #b94a48; margin-bottom: 0; }
+#page .content > section,
+#page .content > section > section { padding-left: 20px; }
+#page .content > section > h3 { margin-left: -20px; color: #3a87ad; }
+#page .content > section > section > h4 { margin-left: -20px; color: #c09853; }
+#page .content > section .list li { line-height: 25px; margin-bottom: 5px; }
+
+#page .content .left-side .sidebar > .btn-block { text-align: left; padding-left: 14px; }
+#page .content .left-side .sidebar .accordion-group { margin: 0; border: 0; }
+#page .content .left-side .sidebar .accordion-group + .btn-block { margin-top: 5px; }
+#page .content .left-side .sidenav { width: 100%; padding: 0; margin-top: 5px; background-color: #fff;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	        border-radius: 6px;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	   -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	        box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+#page .content .left-side .sidenav > li > a { display: block; margin: 0 0 -1px 0; padding: 4px 14px; border: 1px solid #e5e5e5; color: #999; }
+#page .content .left-side .sidenav > li:last-child > a { margin: 0; }
+#page .content .left-side .sidenav > li > a:hover { color: #000; }
+#page .content .left-side .sidenav > li:first-child > a {
+	-webkit-border-radius: 6px 6px 0 0;
+	   -moz-border-radius: 6px 6px 0 0;
+	        border-radius: 6px 6px 0 0;
+}
+#page .content .left-side .sidenav > li:last-child > a {
+	-webkit-border-radius: 0 0 6px 6px;
+	   -moz-border-radius: 0 0 6px 6px;
+	        border-radius: 0 0 6px 6px;
+}
+#page .content .left-side .sidenav > .active > a:hover { background-color: #CBE3CB; color: #F15A24; text-shadow: none; }
+#page .content .left-side .sidenav .icon-chevron-right { float: right; margin-top: 2px; margin-right: -6px; opacity: .25; }
+#page .content .left-side .sidenav > li > a:hover { background-color: #f5f5f5; }
+#page .content .left-side .sidenav a:hover .icon-chevron-right { opacity: .5; }
+
+
+/**
+ * List、Form CSS Setting
+ */
+.ad-button-column a { color: #000; padding: 3px 11px; opacity: 0.75;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+.ad-button-column a:hover { background-color: #ddd; text-decoration: none; opacity: 1; }
+
+.table thead tr { background-color: #dff0d8; }
+.table thead tr > td { border: 0; }
+.table.table-hover tbody tr:hover > td { cursor: pointer; }
+
+/**
+ * ERROR CSS Setting
+ */
+.error-info { border-top: 1px solid #e5e5e5; margin-top: 10px; padding-top: 20px; }
+
+/**
+ * breadcrumb CSS Setting
+ */
+#breadcrumb .breadcrumb > li > a { text-decoration: none; color: #3166A5; }
+#breadcrumb .breadcrumb > li > a:hover { text-decoration: none; color: #F15A24; }
+#breadcrumb .breadcrumb .active { color: #000; }
+
+/*#page .content .left-side .sidebar { margin: 0; }
+
+#page .content .left-side .sidebar .accordion-group { margin: 0; border: 0; }*/
+
+/*#page { margin-top: 5px; margin-bottom: 5px; background: white; border: 1px solid #C9E0ED; }
+#header { border-top: 3px solid #C9E0ED; }
+#content { padding: 20px; }*/
+
+/*#message_area .header { padding-bottom: 5px; border-bottom: 1px solid #ddd; }
+#message_area .header h3 { margin: 0; }
+#message_area .content { margin: 20px auto 0 auto; }
+#message_area .buttons { border-top: 1px solid #ddd; padding-top: 20px; text-align: center; margin-top: 20px; }*/
+
+/*#footer { padding: 10px; margin: 10px 20px; font-size: 0.8em; text-align: center; border-top: 1px solid #C9E0ED; }
+
+#logo { padding: 10px 20px; font-size: 200%; }
+
+#mainmenu { background:white url(bg.gif) repeat-x left top; }
+#mainmenu ul { padding:6px 20px 5px 20px; margin:0px; }
+#mainmenu ul li { display: inline; }
+#mainmenu ul li a { color:#ffffff; background-color:transparent; font-size:12px; font-weight:bold; text-decoration:none; padding:5px 8px; }
+#mainmenu ul li a:hover, #mainmenu ul li.active a { color: #6399cd; background-color:#EFF4FA; text-decoration:none; }
+
+div.breadcrumbs { font-size: 0.9em; padding: 5px 20px; }
+div.breadcrumbs span { font-weight: bold; }*/

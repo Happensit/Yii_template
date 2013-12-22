@@ -1,5 +1,5 @@
 /framework/*
-.idea/*
+/.idea/*
 /assets/*
 /protected/runtime/*
 /uploads/*
